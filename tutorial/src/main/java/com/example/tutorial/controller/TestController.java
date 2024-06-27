@@ -1,6 +1,7 @@
 package com.example.tutorial.controller;
 
 
+import com.example.tutorial.ConstructorExample;
 import com.example.tutorial.ExampleChild;
 import com.example.tutorial.MethodExample;
 
@@ -11,12 +12,16 @@ public class TestController {
 //        e.printStuff(10);
 
 //  "Deep Copy Example"
-        MethodExample example1 = new MethodExample();
-        example1.x = 50;
-        MethodExample example2 = example1;
-        example2.x = 100;
+//        MethodExample example1 = new MethodExample();
+//        example1.x = 50;
+//        MethodExample example2 = example1;
+//        example2.x = 100;
+//
+//        System.out.print(example1.x);
 
-        System.out.print(example1.x);
+//   "Constructor Example"
+        ConstructorExample conex1 = new ConstructorExample();
+
 
 
     }
