@@ -1,9 +1,7 @@
 package com.example.tutorial.controller;
 
 
-import com.example.tutorial.ConstructorExample;
-import com.example.tutorial.ExampleChild;
-import com.example.tutorial.MethodExample;
+import com.example.tutorial.*;
 
 public class TestController {
     public static void main(String[] args) {
@@ -20,9 +18,11 @@ public class TestController {
 //        System.out.print(example1.x);
 
 //   "Constructor Example"
-        ConstructorExample conex1 = new ConstructorExample();
+//        ConstructorExample conex1 = new ConstructorExample();
 
-
-
+//   "AbstractClass Example"
+        AbstractClassExample example = new AbstractClassExample();
+//   "This does not work because abstract classes cannot be instantiated"
+//        AbstractClass example4 = new AbstractClass();
     }
 }
