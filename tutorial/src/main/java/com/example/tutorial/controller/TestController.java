@@ -21,8 +21,11 @@ public class TestController {
 //        ConstructorExample conex1 = new ConstructorExample();
 
 //   "AbstractClass Example"
-        AbstractClassExample example = new AbstractClassExample();
+//        AbstractClassExample example = new AbstractClassExample();
 //   "This does not work because abstract classes cannot be instantiated"
 //        AbstractClass example4 = new AbstractClass();
+//   "SuperClass Example"
+        SuperClass superClass = new SuperClass();
+        superClass.superFunction();
     }
 }
